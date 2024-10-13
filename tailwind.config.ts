@@ -14,6 +14,9 @@ const config: Config = {
           1: "#1C1F2E",
           2: "#161925",
         },
+        blue: {
+          1: "#0E78F9",
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {
@@ -62,6 +65,7 @@ const config: Config = {
       },
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")],
 };
 export default config;
